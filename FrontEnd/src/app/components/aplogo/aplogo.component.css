@@ -1,0 +1,49 @@
+.row{
+	width: 100%;
+}
+
+#aplogo{
+	width: 150px;
+}
+
+img{
+	width: 50px;
+}
+
+a{
+	margin-right: 10px;
+}
+
+.redes{
+	margin-right: 0.5em;
+}
+
+.btn{
+	border-width: medium;
+}
+
+/*PARA LA VISTA DE CELULAR*/
+@media(max-width: 575px){
+	.contenedor{
+		flex-direction: column;
+	}
+
+	.redes img{
+		margin: 0.2em;
+	}
+}
+
+@media(max-width: 444px){
+	.contenedor{
+		flex-direction: column;
+	}
+
+	.redes{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.redes img{
+		margin: 0.2em;
+	}
+}

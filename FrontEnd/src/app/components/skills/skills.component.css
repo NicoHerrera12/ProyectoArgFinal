@@ -1,0 +1,15 @@
+.row{
+	padding: 45px;
+	width: 100%;
+}
+
+h2{
+	background-color: #E1DDDC;
+	display: inline;
+}
+
+
+.col-sm-4{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}

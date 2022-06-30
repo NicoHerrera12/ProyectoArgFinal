@@ -4,8 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
-import { AplogoComponent } from './components/aplogo/aplogo.component';
-import { BannerComponent } from './components/banner/banner.component';
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
 import { XplabComponent } from './components/xplab/xplab.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
@@ -19,8 +17,6 @@ import { FooterComponent } from './components/footer/footer.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    AplogoComponent,
-    BannerComponent,
     AcercaDeComponent,
     XplabComponent,
     EducacionComponent,
